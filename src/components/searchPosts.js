@@ -3,10 +3,11 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import { useFlexSearch } from "react-use-flexsearch"
 import * as queryString from "query-string"
-import Card from 'react-bootstrap/Card'
+import Card from "react-bootstrap/Card"
 
 import { rhythm } from "../utils/typography"
 import { CardDeck, Col } from "react-bootstrap"
+import Img from "gatsby-image"
 
 const SearchBar = styled.div`
   display: flex;
@@ -64,16 +65,16 @@ const SearchedPosts = ({ results }) =>
               {title}
             </h3>
           </Link>
-          
+
           <p
             dangerouslySetInnerHTML={{
               __html: description || excerpt,
             }}
           />
           <Card.Footer>
-          <small>{date}</small>
+            <small>{date}</small>
           </Card.Footer>
-          </Card>
+        </Card>
       )
     })
   ) : (
@@ -84,39 +85,48 @@ const SearchedPosts = ({ results }) =>
 
 const AllPosts = ({ posts }) => (
   <div style={{ margin: "20px auto 40px" }}>
+    {console.log(posts)}
     <CardDeck>
-    {posts.map(({ node }) => {
-      const title = node.frontmatter.title || node.fields.slug
-      return (
-        <Col xs={6} sm={6}>
-        <Card className="mb-4">
-          <Card.Img variant="top"></Card.Img>
-        <div key={node.fields.slug}>
-          <Link style={{ boxShadow: `none` }} to={`/blog${node.fields.slug}`}>
-            <h3
-              style={{
-                marginBottom: rhythm(1 / 4),
-                color: "#888",
-              }}
-            >
-              {title}
-            </h3>
-          </Link>
-         <Card.Body>
-          <p
-            dangerouslySetInnerHTML={{
-              __html: node.frontmatter.description || node.excerpt,
-            }}
-          />
-          </Card.Body>
-        </div>
-        <Card.Footer>
-        <small>{node.frontmatter.date}</small>
-        </Card.Footer>
-        </Card>
-        </Col>
-      )
-    })}
+      {posts.map(({ node }) => {
+        const title = node.frontmatter.title || node.fields.slug
+        return (
+          <Col xs={6} sm={6}>
+            <Card className="mb-4">
+              {!!node.frontmatter.featuredImage && (
+                <Card.Img
+                  src={node.frontmatter.featuredImage.childImageSharp.fluid.src}
+                  variant="top"
+                ></Card.Img>
+              )}
+              <div key={node.fields.slug}>
+                <Link
+                  style={{ boxShadow: `none` }}
+                  to={`/blog${node.fields.slug}`}
+                >
+                  <h3
+                    style={{
+                      marginBottom: rhythm(1 / 4),
+                      color: "#888",
+                    }}
+                  >
+                    {title}
+                  </h3>
+                </Link>
+                <Card.Body>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </Card.Body>
+              </div>
+              <Card.Footer>
+                <small>{node.frontmatter.date}</small>
+              </Card.Footer>
+            </Card>
+          </Col>
+        )
+      })}
     </CardDeck>
   </div>
 )
