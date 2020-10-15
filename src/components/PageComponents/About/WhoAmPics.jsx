@@ -56,6 +56,15 @@ const WhoAmPics = () => (
           <div className="image fit">
             <img src={Soccer} alt="" />
           </div>
+
+
+          <div className="image fit">
+            <img src="https://s.abcnews.com/images/US/WireAP_f3e5645458cd4881af06ca0d95f9f081_16x9_992.jpg"  alt="" />
+          </div>
+
+
+
+
         </Col>
 
         <Col>
