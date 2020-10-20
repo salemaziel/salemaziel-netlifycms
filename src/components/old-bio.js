@@ -25,7 +25,7 @@ function OldBio() {
               alt={author}
               style={{
                 marginRight: rhythm(1 / 2),
-                marginBottom: 0,
+                marginBottom: 25,
                 minWidth: 50,
                 borderRadius: `100%`,
               }}
@@ -33,7 +33,7 @@ function OldBio() {
                 borderRadius: `50%`,
               }}
             />
-            <p>
+            <p style={{marginTop: '0.5rem'}}>
               Written by <strong>{author}</strong>.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
@@ -49,9 +49,9 @@ function OldBio() {
 
 const bioQuery = graphql`
   query OldBioQuery {
-    avatar: file(absolutePath: { regex: "/me-striped-shirt-585x780.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/me-striped-shirt-square.jpg/" }) {
       childImageSharp {
-        fixed(width: 50, height: 50) {
+        fixed(width: 75, height: 75) {
           ...GatsbyImageSharpFixed
         }
       }

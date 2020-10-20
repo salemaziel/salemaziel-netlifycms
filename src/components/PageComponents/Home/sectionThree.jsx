@@ -21,7 +21,7 @@ const SectionThree = () => (
           </header>
 
           <div className="image featured">
-            <img src={Profilepic} alt="" style={{maxWidth: '40%', height: 'auto', margin: 'auto'}} />
+            <img src={Profilepic} alt="Profile photo of Salem Aziel" style={{maxWidth: '40%', height: 'auto', margin: 'auto', boxShadow: '5px 10px 15px #060606'}} />
           </div>
 
           <p>

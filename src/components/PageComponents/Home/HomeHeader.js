@@ -2,6 +2,9 @@ import React from 'react';
 import homeStyles from './home.module.css';
 import Container from 'react-bootstrap/Container';
 
+import LazyHero from "react-lazy-hero";
+
+
 import { PersonaLightShadow } from '../../../assets/images/index';
 import CodestaffLogo from '../../../assets/images/codestaff-logo.jpg';
 
@@ -10,22 +13,24 @@ import Announcement from '../../Announcement'
 import {navigateTo} from 'gatsby'
 
 
-class HomeHeader extends React.Component {
-  render() {
+
+const HomeHeader = (props) => {
     return (
       <>
                     <Announcement
         variant="white"
         text="Sorry, currently redesigning my site. Find out more"
         linkText="here"
-        /*linkOnClick={() => {
-          // Navigate to pricing page
-          //navigateTo("/about");
-          <a href="https://youtu.be/dQw4w9WgXcQ" rel="nofollow" />
-        }}*/
+
       />
       <section id="top" className="one dark cover">
-        {/*<div className="container">*/}
+      <LazyHero
+        imageSrc={props.bgImage}
+        isCentered={true}
+        isFixed={true}
+        minHeight="100vh"
+        opacity={0.15}
+      >
         <Container>
           <div className={homeStyles.Headerbg}>
             <header>
@@ -36,12 +41,11 @@ class HomeHeader extends React.Component {
                   className={homeStyles.signature}
                 />
               </div>
-              <h3 className="alt" style={{ textShadow: '3px 3px 4px black' }}>
+              <h3 className="alt" style={{ textShadow: '2px 2px 2px black' }}>
               Digital Consultant, Web Developer, <br />
                 and System Administrator 
                 <br />
               </h3>
-              {/*<h4> <strong>HMU, lets talk </strong></h4>*/}
               
                <div style={{padding: '1rem 0', marginTop: '2rem'}}>
                <CalendlyButton />
@@ -58,12 +62,12 @@ class HomeHeader extends React.Component {
                         }}>CodeStaff</p>*/}
             </header>
           </div>
-          {/*</div>*/}
         </Container>
+        </LazyHero>
+
       </section>
       </>
     );
-  }
 }
 
 export default HomeHeader;

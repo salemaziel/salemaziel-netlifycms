@@ -25,6 +25,9 @@ class Blog extends React.Component {
         <div id="main">
           <section className="three">
             <Container>
+            <Row className="justify-content-center">
+                <h1 className="Titles">My Blog About Everything &amp; Nothing</h1>
+              </Row>
               <Row className="justify-content-center">
                 <OldBio />
               </Row>
@@ -71,7 +74,7 @@ export const pageQuery = graphql`
             description
             featuredImage {
               childImageSharp {
-                fluid(maxWidth: 538, maxHeight: 600, quality: 90) {
+                fluid(maxWidth: 538, quality: 90) {
                   base64
                   src
                   srcSet

@@ -216,6 +216,15 @@ h6 a strong {
   color: #333;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h1.Titles {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
 h2 {
   font-size: 2em;
   letter-spacing: -1px;
@@ -857,7 +866,7 @@ button:active,
   border-bottom-color: rgba(255, 255, 255, 0);
 }
 #main > section.cover {
-  padding: 2em 0 6em;
+  padding: 0 0 0;
   background-size: cover;
   background-position: center center;
 }
@@ -866,9 +875,9 @@ button:active,
   background-image: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.55) 33%,
-      rgba(0, 0, 0, 0.35) 66%,
-      rgba(0, 0, 0, 0.15) 100%
-    ),
+      rgba(0, 0, 0, 0.55) 66%,
+      rgba(0, 0, 0, 0.55) 100%
+    )
     url('../assets/images/sdcoast-1920x1438.jpg');
   background-attachment: fixed;
   background-position: 0% 0%;

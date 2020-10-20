@@ -30,7 +30,7 @@ const SectionOne = () => (
         </Row>
 
         <div className="image featured">
-          <img src={MeStripedShirt} alt="" style={{width:'50%', margin: 'auto'}}/>
+          <img src={MeStripedShirt} alt="" style={{width:'50%', margin: 'auto', boxShadow: '5px 10px 15px #060606'}} />
         </div>
 
         <p>
