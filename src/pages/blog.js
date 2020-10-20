@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import OldBio from "../components/old-bio"
-import Bio from '../components/bio'
+import Bio from "../components/bio"
 import Layout from "../components/Layout"
 import OldSEO from "../components/old-seo"
 import Button from "../components/old-button"
@@ -26,7 +26,7 @@ class Blog extends React.Component {
           <section className="three">
             <Container>
               <Row className="justify-content-center">
-              <OldBio />
+                <OldBio />
               </Row>
               <SearchPosts
                 posts={posts}
@@ -69,6 +69,15 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 1080, quality: 100) {
+                  base64
+                  src
+                  srcSet
+                }
+              }
+            }
           }
         }
       }

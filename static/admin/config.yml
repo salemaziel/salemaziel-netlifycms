@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: salemaziel/salemaziel-netlifycms
+  branch: main
 
 media_folder: content/assets
 public_folder: ../assets
@@ -16,3 +17,9 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+      - {
+          label: image,
+          name: featuredImage,
+          widget: image,
+          required: false,
+        }
