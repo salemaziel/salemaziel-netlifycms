@@ -93,10 +93,17 @@ const AllPosts = ({ posts }) => (
           <Col xs={6} sm={6}>
             <Card className="mb-4">
               {!!node.frontmatter.featuredImage && (
-                <Card.Img
-                  src={node.frontmatter.featuredImage.childImageSharp.fluid.src}
-                  variant="top"
-                ></Card.Img>
+                <Link
+                  style={{ boxShadow: `none` }}
+                  to={`/blog${node.fields.slug}`}
+                >
+                  <Card.Img
+                    src={
+                      node.frontmatter.featuredImage.childImageSharp.fluid.src
+                    }
+                    variant="top"
+                  ></Card.Img>
+                </Link>
               )}
               <div key={node.fields.slug}>
                 <Link
