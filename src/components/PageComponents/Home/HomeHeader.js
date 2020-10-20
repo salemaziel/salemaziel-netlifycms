@@ -29,7 +29,7 @@ const HomeHeader = (props) => {
         isCentered={true}
         isFixed={true}
         minHeight="100vh"
-        opacity={0.15}
+        opacity={0}
       >
         <Container>
           <div className={homeStyles.Headerbg}>
