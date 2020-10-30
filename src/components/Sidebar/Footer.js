@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import { FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
 import CalendlyButton from '../CalendlyButton'
 
 export default function Footer({ socialLinks = [] }) {
@@ -17,11 +18,30 @@ export default function Footer({ socialLinks = [] }) {
           );
         })}
       </ul>*/}
-      <Row className="justify-content-center">
+      <ul className="icons">
+        <li>
+          <a href="https://facebook.com">
+            <FaFacebook />
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/rblart_760">
+            <FaInstagram />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/salemaziel">
+            <FaGithub />
+          </a>
+        </li>
+
+      </ul>
+
+      {/*<Row className="justify-content-center">
         <Col xs={10}>
         <CalendlyButton />
         </Col>
-      </Row>
+    </Row>*/}
     </div>
   );
 }

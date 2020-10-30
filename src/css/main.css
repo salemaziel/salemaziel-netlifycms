@@ -223,11 +223,12 @@ h1 {
 h1.Titles {
   font-size: 2rem;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 h2 {
   font-size: 2em;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
 }
 h2.alt {
   color: white;
@@ -252,7 +253,7 @@ p.alt {
 }
 
 header {
-  margin: 0 0 2em 0;
+  margin: 2em 0 2em 0;
 }
 header > p {
   margin: 1em 0 0 0;
@@ -485,6 +486,7 @@ ul {
 }
 ul li {
   padding-left: 0.5em;
+  text-align: left;
 }
 
 ol {
