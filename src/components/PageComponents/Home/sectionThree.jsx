@@ -33,7 +33,7 @@ const SectionThree = () => (
           </Fade>
 
           <Fade top>
-          <p>
+          <p style={{textAlign: 'center'}}>
           I'm pretty sexy, I know.
           </p>
           </Fade>
