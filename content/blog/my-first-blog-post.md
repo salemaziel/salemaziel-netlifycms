@@ -29,12 +29,12 @@ Me, obviously. What else what I write about?
 
 Besides all the glorious literary masterpieces waiting to be produced about that, this blog is also going to cover the following topics:
 
-* Tech and CyberSecurity Shit
-* Philosophical Shit
-* Political Shit
-* Psychology & Neuroscience Shit
-* Psychoactive Substances (aka drugz) Shit
-* My Personal Hot Takes.. n shit
+* **Tech and CyberSecurity Shit**
+* **Philosophical Shit**
+* **Political Shit**
+* **Psychology & Neuroscience Shit**
+* **Psychoactive Substances (aka drugz) Shit**
+* **My Personal Hot Takes.. n shit**
 
 I might expand on this list later, but that should about cover it for now. 
 
