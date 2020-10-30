@@ -13,7 +13,7 @@ const AboutPage = () => (
   <>
 
     <div id="main">
-    <Announcement
+    {/*<Announcement
         variant="white"
         text="Sorry, currently redesigning my site. Find out more"
         linkText="here"
@@ -21,8 +21,8 @@ const AboutPage = () => (
           // Navigate to pricing page
           //navigateTo("/about");
           <a href="https://youtu.be/dQw4w9WgXcQ" rel="nofollow" />
-        }}*/
-      />
+        }}* /
+      />*/}
           <SectionOne />
           <WhoAmPics />
 

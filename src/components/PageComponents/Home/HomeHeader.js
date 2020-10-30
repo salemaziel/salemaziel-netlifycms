@@ -17,19 +17,20 @@ import {navigateTo} from 'gatsby'
 const HomeHeader = (props) => {
     return (
       <>
-                    <Announcement
+                    {/*<Announcement
         variant="white"
         text="Sorry, currently redesigning my site. Find out more"
         linkText="here"
 
-      />
+                    />*/}
       <section id="top" className="one dark cover">
       <LazyHero
         imageSrc={props.bgImage}
         isCentered={true}
         isFixed={true}
         minHeight="100vh"
-        opacity={0}
+        opacity={0.2}
+        color='#000'
       >
         <Container>
           <div className={homeStyles.Headerbg}>

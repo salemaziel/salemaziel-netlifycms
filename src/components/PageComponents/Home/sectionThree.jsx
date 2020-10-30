@@ -13,21 +13,33 @@ import { Link } from 'gatsby'
 
 import Button from 'react-bootstrap/Button'
 
+import Fade from 'react-reveal/Fade'
+
 const SectionThree = () => (
 <section id="about" className="three">
         <div className="container">
+          
           <header>
+            <Fade top>
             <h2>This is Me</h2>
+            </Fade>
           </header>
 
+          <Fade top>
           <div className="image featured">
+          
             <img src={Profilepic} alt="Profile photo of Salem Aziel" style={{maxWidth: '40%', height: 'auto', margin: 'auto', boxShadow: '5px 10px 15px #060606'}} />
           </div>
+          </Fade>
 
+          <Fade top>
           <p>
           I'm pretty sexy, I know.
           </p>
+          </Fade>
+          <Fade top>
           <Button as={Link} className="button" to='/about' >Learn More About Me</Button>
+          </Fade>
         </div>
 </section>
 

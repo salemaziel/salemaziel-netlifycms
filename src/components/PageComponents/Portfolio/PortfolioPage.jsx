@@ -10,7 +10,7 @@ import Announcement from '../../Announcement'
 
 const PortfolioPage = () => (
     <>
-                        <Announcement
+                        {/*<Announcement
         variant="white"
         text="Sorry, currently redesigning my site. Find out more"
         linkText="here"
@@ -18,8 +18,8 @@ const PortfolioPage = () => (
           // Navigate to pricing page
           //navigateTo("/about");
           <a href="https://youtu.be/dQw4w9WgXcQ" rel="nofollow" />
-        }}*/
-      />
+        }}* /
+      />*/}
     <SectionTop
     bg=""
     textColor=""
