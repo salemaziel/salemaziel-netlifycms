@@ -73,7 +73,7 @@ const SectionOne = () => (
           />
           <div style={{margin: '5px 2rem 8rem'}}>
               <h4 style={{color: 'gray!important', fontSize: '1.5rem'}}>More About Me</h4>
-              <p>I do graffiti on canvases. There's one from my Instagram to the left. There's a bunch more on my feed. You should check them out. </p>
+              <p>I do graffiti on canvases. There's a bunch of picture on my Instagram feed. You should check them out. </p>
               <p>
                I haven't uploaded any new stuff in a while, but I will. If you get in touch with me requesting a piece, (and I like you) I'll draw you something :)</p>
 
