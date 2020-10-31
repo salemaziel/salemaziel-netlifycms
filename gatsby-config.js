@@ -17,7 +17,6 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-sass",
 
@@ -154,5 +153,6 @@ module.exports = {
         sitemap: "https://salemaziel.com/sitemap.xml",
       },
     },
+//    `gatsby-plugin-offline`,
   ],
 }
