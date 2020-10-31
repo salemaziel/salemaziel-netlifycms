@@ -22,7 +22,6 @@ class Blog extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <OldSEO title="All posts" />
-        <div id="main">
           <section className="three">
             <Container>
             <Row className="justify-content-center">
@@ -42,7 +41,6 @@ class Blog extends React.Component {
               </Link>
             </Container>
           </section>
-        </div>
       </Layout>
     )
   }
