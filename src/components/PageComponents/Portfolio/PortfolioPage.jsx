@@ -6,20 +6,10 @@ import Col from 'react-bootstrap/Col'
 import Categories from './Categories'
 
 import SectionTop from './sectionTop'
-import Announcement from '../../Announcement'
+//import Announcement from '../../Announcement'
 
 const PortfolioPage = () => (
     <>
-                        {/*<Announcement
-        variant="white"
-        text="Sorry, currently redesigning my site. Find out more"
-        linkText="here"
-        /*linkOnClick={() => {
-          // Navigate to pricing page
-          //navigateTo("/about");
-          <a href="https://youtu.be/dQw4w9WgXcQ" rel="nofollow" />
-        }}* /
-      />*/}
     <SectionTop
     bg=""
     textColor=""

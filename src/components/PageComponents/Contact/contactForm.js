@@ -1,6 +1,7 @@
 import React from 'react';
 import { navigate } from 'gatsby';
 import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Form from 'react-bootstrap/Form';
 //import Button from 'react-bootstrap/Button'
 
@@ -207,7 +208,7 @@ export default function ContactForm() {
        </Form.Group>*/}
 
         <Row style={{ margin: 'auto auto 2rem auto' }}>
-          <div className="col-6 col-12-mobile">
+          <Col xs={12} md={6} className="mb-4">
             <input
               type="text"
               name="name"
@@ -216,8 +217,8 @@ export default function ContactForm() {
               onChange={handleChange}
               required
             />
-          </div>
-          <div className="col-6 col-12-mobile">
+          </Col>
+          <Col xs={12} md={6} className="mb-4">
             <input 
             type="text" 
             name="email" 
@@ -226,7 +227,7 @@ export default function ContactForm() {
             onChange={handleChange}
             required
              />
-          </div>
+          </Col>
         </Row>
         <Row style={{ margin: 'auto auto 2rem auto' }}>
           <div className="col-12">

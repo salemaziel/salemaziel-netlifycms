@@ -90,7 +90,7 @@ const AllPosts = ({ posts }) => (
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <Col xs={12} sm={6}>
+          <Col xs={12} sm={6} key="index">
             <Card className="mb-4">
               {!!node.frontmatter.featuredImage && (
                 <Link

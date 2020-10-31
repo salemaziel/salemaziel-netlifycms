@@ -5,13 +5,13 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import SideBar from './Sidebar/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { theme } from '../styles/theme';
+//import { theme } from '../styles/theme';
 //import '../css/nosnipfooter.css';
 //import '../assets/sass/main.scss';
-import PageFooter from './PageFooter';
+//import PageFooter from './PageFooter';
 import '../css/main.css'
 import './layout.css'
-import {navigateTo} from 'gatsby'
+//import {navigateTo} from 'gatsby'
 
 
 class Layout extends Component {
@@ -59,10 +59,10 @@ class Layout extends Component {
             </Helmet>
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
               <SideBar /*sections={sections}*/ />
-
+              <div id="main">
               {children}
+              </div>
             </div>
-            {/*<PageFooter />*/}
           </>
         )}
       />

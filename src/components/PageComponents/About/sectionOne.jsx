@@ -1,15 +1,15 @@
 import React from 'react'
-import pic2 from '../../../assets/images/pic02.jpg';
-import pic3 from '../../../assets/images/pic03.jpg';
-import pic4 from '../../../assets/images/pic04.jpg';
-import pic5 from '../../../assets/images/pic05.jpg';
-import pic6 from '../../../assets/images/pic06.jpg';
-import pic7 from '../../../assets/images/pic07.jpg';
-import pic8 from '../../../assets/images/pic08.jpg';
+//import pic2 from '../../../assets/images/pic02.jpg';
+//import pic3 from '../../../assets/images/pic03.jpg';
+//import pic4 from '../../../assets/images/pic04.jpg';
+//import pic5 from '../../../assets/images/pic05.jpg';
+//import pic6 from '../../../assets/images/pic06.jpg';
+//import pic7 from '../../../assets/images/pic07.jpg';
+//import pic8 from '../../../assets/images/pic08.jpg';
 
-import { FTPACAB, UCSB, AlwaysSunny, Hackerman, Lawsdontexist, Revolutionary, WordpressLogo, Terminal2, Linuxlogo, HTML5logo, GatsbyReactLogos, Webservices, UsedToSmoke, CodestaffLogo, Profilepic, MeStripedShirt } from '../../../assets/images/index'
+import { MeStripedShirt } from '../../../assets/images/index'
 import Row from 'react-bootstrap/Row'
-import InstagramEmbed from 'react-instagram-embed';
+//import InstagramEmbed from 'react-instagram-embed';
 import Button from 'react-bootstrap/Button'
 import {Link} from 'gatsby'
 
@@ -18,7 +18,7 @@ import Col from 'react-bootstrap/Col'
 import aboutStyles from './about.module.css'
 
 const SectionOne = () => (
-
+  <>
       <section id="about" className="three">
       <div className="container">
         <Row style={{ justifyContent: 'center', textAlign: 'center' }}>
@@ -58,7 +58,7 @@ const SectionOne = () => (
         <hr />
         <br />
         <div className={aboutStyles.MoreAbout}>
-          <InstagramEmbed
+          {/*<InstagramEmbed
             url="https://www.instagram.com/p/244wrIhZ-5/"
             maxWidth={320}
             hideCaption={true}
@@ -69,22 +69,19 @@ const SectionOne = () => (
             onSuccess={() => {}}
             onAfterRender={() => {}}
             onFailure={() => {}}
-            /*style={{margin:'auto'}}*/
-          />
+            /*style={{margin:'auto'}}* /
+          />*/}
           <div style={{margin: '5px 2rem 8rem'}}>
               <h4 style={{color: 'gray!important', fontSize: '1.5rem'}}>More About Me</h4>
               <p>I do graffiti on canvases. There's a bunch of picture on my Instagram feed. You should check them out. </p>
               <p>
                I haven't uploaded any new stuff in a while, but I will. If you get in touch with me requesting a piece, (and I like you) I'll draw you something :)</p>
 
-               <p>
-
-               </p>
           </div>
         </div>
       </div>
     </section>
-
+</>
 )
 
 export default SectionOne

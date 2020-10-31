@@ -896,6 +896,7 @@ button:active,
 #main > section.four {
   background-color: #e8edec;
   padding: 2rem 0 5rem;
+  min-height: 100vh;
 }
 #main > section.mygallery {
   box-shadow: none;
@@ -1009,10 +1010,10 @@ button:active,
 
 @media screen and (max-width: 960px) {
   /* Basic */
-  html,
+  /*html,
   body {
     overflow-x: hidden;
-  }
+  }*/
   body,
   input,
   textarea,
@@ -1063,6 +1064,10 @@ button:active,
     padding-top: 2em;
     margin-top: 2em;
     position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 40%;
   }
   #logo {
     margin: 1.5em 1.25em 1.25em 1.25em;
@@ -1208,6 +1213,11 @@ button:active,
   #main section.cover header {
     padding: 0 1em;
   }
+  /* Header */
+  #header .bottom {
+    top: 30%;
+  }
+
   /* Footer */
   #footer .copyright li {
     display: block;

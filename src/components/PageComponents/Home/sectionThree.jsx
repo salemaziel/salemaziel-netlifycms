@@ -40,6 +40,10 @@ const SectionThree = () => (
           <Fade top>
           <Button as={Link} className="button" to='/about' >Learn More About Me</Button>
           </Fade>
+          <br />
+          <Fade top>
+          <Button as={Link} className="button" to='/blog' >Read My Blog</Button>
+          </Fade>
         </div>
 </section>
 

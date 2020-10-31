@@ -1,7 +1,8 @@
 import React from 'react';
-import Scrollspy from 'react-scrollspy';
-import Scroll from '../Scroll';
+//import Scrollspy from 'react-scrollspy';
+//import Scroll from '../Scroll';
 import { Link } from 'gatsby'
+import NavLink from 'react-bootstrap/NavLink'
 
 import './sidebar.css'
 
@@ -14,53 +15,47 @@ import {
 } from 'react-icons/fa'
 
 
-export default function Nav({ sections = [] }) {
-  return (
-    <nav id="nav">
+//export default function Nav({ sections = [] }) {
+//  return (
+const Nav = () => (
+  <nav id="nav">
       <ul>
         <li>
-        <Link to="/" className="NavItems">
+        <NavLink as={Link} to="/" rel="preload" className="NavItems">
         <FaHome className="mr-5"/>
           Home
-        </Link>
+        </NavLink>
         </li>
 
         <li>
-        <Link to="/blog" className="NavItems">
+        <NavLink as={Link} to="/blog" rel="preload" className="NavItems">
         <FaBookOpen className="mr-5" />
           My Blog
-        </Link>
+        </NavLink>
         </li>
 
 
 
         <li>
-        <Link to="/about" className="NavItems">
+        <NavLink as={Link} to="/about" rel="preload" className="NavItems">
         <FaUser className="mr-5"/>
           About Me
-        </Link>
+        </NavLink>
         </li>
 
 
 
-        {/*<li >
-        <Link to="/services" className="NavItems">
-          <span className="icon fa-code " />
-          Services
-        </Link>
-        </li>*/}
-
         <li>
-        <Link to="/portfolio" className="NavItems">
+        <NavLink as={Link} to="/portfolio" rel="preload" className="NavItems">
           <FaPhotoVideo className="mr-5"/>
           Portfolio
-        </Link>
+        </NavLink>
         </li>
         <li>
-        <Link to="/contact" className="NavItems">
+        <NavLink as={Link} to="/contact" rel="preload" className="NavItems">
         <FaEnvelope className="mr-5"/>
           Contact
-        </Link>
+        </NavLink>
         </li>
 
         {/*<Scrollspy
@@ -83,4 +78,5 @@ export default function Nav({ sections = [] }) {
       </ul>
     </nav>
   );
-}
+
+  export default Nav

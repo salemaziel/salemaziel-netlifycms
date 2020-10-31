@@ -9,8 +9,10 @@ import { Link } from 'gatsby'
 //const pic = require('../../assets/img/persona-lightshadow.png');
 
 
-export default function SideBar({ sections = [] }) {
-  const [headerOpen, toggleHeader] = useState(false);
+//export default function SideBar({ sections = [] }) {
+const SideBar = (props) => {
+
+const [headerOpen, toggleHeader] = useState(false);
   return (
     <div className={`${headerOpen ? 'header-visible' : ' '}`}>
       <TopNav
@@ -24,7 +26,7 @@ export default function SideBar({ sections = [] }) {
             title={config.authorName}
             heading={config.heading}
           />
-          <Nav sections={sections} />
+          <Nav /*sections={sections}*/ />
         </div>
         <Footer socialLinks={config.socialLinks} />
       </div>
@@ -41,3 +43,5 @@ export default function SideBar({ sections = [] }) {
     </div>
   );
 }
+
+export default SideBar
