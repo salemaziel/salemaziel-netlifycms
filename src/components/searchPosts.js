@@ -90,7 +90,7 @@ const AllPosts = ({ posts }) => (
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <Col xs={6} sm={6}>
+          <Col xs={12} sm={6}>
             <Card className="mb-4">
               {!!node.frontmatter.featuredImage && (
                 <Link
@@ -113,7 +113,8 @@ const AllPosts = ({ posts }) => (
                   <h3
                     style={{
                       marginBottom: rhythm(1 / 4),
-                      color: "#888",
+                      marginTop: rhythm(1 / 4),
+                      color: "#434343",
                     }}
                   >
                     {title}
@@ -123,6 +124,9 @@ const AllPosts = ({ posts }) => (
                   <p
                     dangerouslySetInnerHTML={{
                       __html: node.frontmatter.description || node.excerpt,
+                    }}
+                    style={{
+                      textAlign: 'center'
                     }}
                   />
                 </Card.Body>

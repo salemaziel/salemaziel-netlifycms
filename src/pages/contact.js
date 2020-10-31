@@ -36,8 +36,7 @@ import Col from 'react-bootstrap/Col'
 
 const Contact = () => (
   <Layout>
-    <SideBar /*sections={sections}*/>
-    </SideBar>
+
 
     <div id="main">
       {/*<section id="top" className="one dark cover">

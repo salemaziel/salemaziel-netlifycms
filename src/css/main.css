@@ -895,9 +895,11 @@ button:active,
 }
 #main > section.four {
   background-color: #e8edec;
+  padding: 2rem 0 5rem;
 }
 #main > section.mygallery {
   box-shadow: none;
+  min-height: 100vh;
   padding: 2rem 0 5rem;
   overflow: visible;
 }
