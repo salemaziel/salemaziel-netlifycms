@@ -38,7 +38,6 @@ const Contact = () => (
   <Layout>
 
 
-    <div id="main">
       {/*<section id="top" className="one dark cover">
         <div className="container">
           
@@ -188,7 +187,6 @@ const Contact = () => (
          </section>*/}
          <ContactPage />
 
-    </div>
 
   </Layout>
 );
