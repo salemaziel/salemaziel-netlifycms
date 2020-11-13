@@ -5,14 +5,12 @@ import Rgallery from '../../../Rgallery'
 
 const WebDevPage = () => (
     <>
-        <div id="main">
 
             <section id="mygallery" className="mygallery">
                 <div className="container">
                     <Rgallery id="rgallery"/>
                 </div>
             </section>
-        </div>
     </>
 
 )
