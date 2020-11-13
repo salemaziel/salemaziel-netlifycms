@@ -19,11 +19,9 @@ const sections = [
 const Portfolio = () => (
     <Layout>
         
-        <div id="main">
 
             <PortfolioPage />
 
-        </div>
 
     </Layout>
 )
