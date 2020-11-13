@@ -1,0 +1,226 @@
+.arlo_tm_section {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.arlo_tm_about_wrap_all {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 138px;
+}
+.arlo_tm_about {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 160px;
+	.about_inner {
+		width: 100%;
+		height: auto;
+		clear: both;
+		float: left;
+		display: flex;
+		padding-top: 80px;
+    }
+	.leftbox {
+		width: 35%;
+		float: left;
+		height: auto;
+		.about_image_wrap {
+			position: relative;
+			float: left;
+			.image {
+				position: absolute;
+				z-index: 2;
+				.inner {
+					position: absolute;
+					top: 0px;
+					bottom: 0px;
+					left: 0px;
+					right: 0px;
+					background-repeat: no-repeat;
+					background-size: cover;
+					background-position: center;
+					border-radius: 5px;
+					background-image: url('../../../assets/images/me-striped-shirt-square.jpg');
+				}
+			}
+			.border {
+				.inner {
+					position: absolute;
+					top: 25px !important;
+					bottom: -25px !important;
+					left: 25px !important;
+					right: -25px !important;
+					border: 10px solid #000;
+					border-radius: 5px;
+				}
+			}
+			img {
+				opacity: 0;
+			}
+		}
+	}
+	.rightbox {
+		width: 65%;
+		height: auto;
+		padding-left: 70px;
+		.about_title {
+			margin-bottom: 30px;
+			h3 {
+				font-size: 20px;
+				.arlo_tm_animation_text_word {
+					color: #e54b4b;
+				}
+			}
+		}
+		.text {
+			margin-bottom: 23px;
+			float: left;
+			span {
+				color: #e54b4b;
+				font-style: italic;
+			}
+		}
+    }
+
+	.about_short_contact_wrap {
+		width: 100%;
+		height: auto;
+		clear: both;
+		float: left;
+		margin-bottom: 24px;
+		ul {
+			margin: 0px;
+			list-style-type: none;
+			li {
+				margin: 0px 0px 10px 0px;
+				width: 50%;
+				float: left;
+				position: relative;
+				padding-left: 30px;
+				&:nth-of-type(2n) {
+					clear: right;
+				}
+				a {
+					text-decoration: none;
+					color: #000;
+					position: relative;
+					display: inline-block;
+					-webkit-transition: all .3s ease;
+					-moz-transition: all .3s ease;
+					-ms-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					transition: all .3s ease;
+					&:after {
+						content: '';
+						width: 0;
+						height: 1px;
+						position: absolute;
+						left: auto;
+						right: 0;
+						bottom: 0;
+						transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+						background: currentColor;
+					}
+					&:hover {
+						&:after {
+							width: 100%;
+							left: 0;
+							right: auto;
+						}
+					}
+				}
+				.svg {
+					position: absolute;
+					left: 0px;
+					top: 6px;
+					width: 17px;
+					height: 17px;
+                    color: rgba(172, 52, 52, 0.986);
+                    fill:rgba(172, 52, 52, 0.986);
+				}
+			}
+		}
+	}
+	.arlo_tm_main_title_holder {
+		margin-bottom: 40px;
+	}
+	ul {
+		li {
+			label {
+				font-weight: 500;
+				color: #000;
+				min-width: 85px;
+				display: inline-block;
+			}
+		}
+	}
+	.buttons {
+		width: 100%;
+		height: auto;
+		clear: both;
+		float: left;
+		ul {
+			margin: 0px;
+			list-style-type: none;
+			li {
+				margin: 0px 15px 20px 0px;
+				display: inline-block;
+				a {
+					text-decoration: none;
+					color: #fff;
+					/*background-color: #e54b4b;*/
+					display: inline-block;
+					padding: 10px 45px;
+					font-family: "Montserrat";
+					position: relative;
+					overflow: hidden;
+					border-radius: 5px;
+					&:before {
+						position: absolute;
+						content: "";
+						top: 0px;
+						height: 100%;
+						left: -25%;
+						width: 0%;
+						background-color: #000;
+						transform: skew(50deg);
+						transition-duration: .6s;
+						z-index: 1;
+					}
+					&:hover {
+						&:before {
+							width: 150%;
+						}
+					}
+				}
+				span {
+					z-index: 2;
+					position: relative;
+				}
+			}
+		}
+	}
+}
+.arlo_title_holder {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	h3 {
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 35px;
+	}
+	span {
+		display: inline-block;
+		font-size: 14px;
+		text-transform: uppercase;
+		color: #e54b4b;
+		font-weight: 500;
+	}
+}

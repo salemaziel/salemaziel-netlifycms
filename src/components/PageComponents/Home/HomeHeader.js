@@ -26,7 +26,7 @@ const HomeHeader = (props) => {
         opacity={0.2}
         color='#000'
       >
-        <Container>
+        <Container className={homeStyles.containerHero}>
           <div className={homeStyles.Headerbg}>
             <header>
               <div>
@@ -36,15 +36,21 @@ const HomeHeader = (props) => {
                   className={homeStyles.signature}
                 />
               </div>
-              <h3 className="alt" style={{ textShadow: '2px 2px 2px black' }}>
-              Digital Consultant, Web Developer, <br />
-                and System Administrator 
-                <br />
-              </h3>
+              <h2 className="alt" style={{ textShadow: '2px 2px 2px black' }}>
+             Web Developer. {/*<br />  Digital Consultant.  <br />
+                and System Administrator */}
+              </h2>
+              <h2 className="alt" style={{ textShadow: '2px 2px 2px black' }}>
+  Digital Consultant.
+              </h2>
+              <h2 className="alt" style={{ textShadow: '2px 2px 2px black' }}>
+
+                System Administrator.
+              </h2>
               
-               <div style={{padding: '1rem 0', marginTop: '2rem'}}>
+               {/*<div style={{padding: '1rem 0', marginTop: '2rem'}}>
                <CalendlyButton />
-      </div>
+    </div>* /}
               {/*<icon className="fa fa-code" 
                         style={{
                             fontSize: "2rem",

@@ -10,12 +10,14 @@ import Col from "react-bootstrap/Col"
 
 import Fade from "react-reveal/Fade"
 
+import s3Styles from './home.module.css'
+
 const SectionThree = () => (
   <section id="about" className="three">
     <div className="container">
       <header>
         <Fade top>
-          <h2>This is Me</h2>
+          <h2>I build websites and solve your technology nightmares.</h2>
         </Fade>
       </header>
 
@@ -24,29 +26,28 @@ const SectionThree = () => (
           <img
             src={Profilepic}
             alt="Profile photo of Salem Aziel"
-            style={{
-              maxWidth: "40%",
-              height: "auto",
-              margin: "auto",
-              boxShadow: "5px 10px 15px #060606",
-            }}
+            className={s3Styles.profilePic}
           />
         </div>
       </Fade>
 
       <Fade top>
-        <p style={{ textAlign: "center" }}>I'm pretty sexy, I know.</p>
+        <p style={{ textAlign: "center" }}>And I'm sexy while doing it.</p>
       </Fade>
       <Row className="justify-content-center">
         <Fade top>
           <Col>
-            <Button as={Link} className="button" to="/about">
+            <Button as={Link} className="button homeButton" to="/about">
               Learn About Me
             </Button>
-          </Col>
-          <Col>
-            <Button as={Link} className="button" to="/blog">
+            <Button as={Link} className="button homeButton" to="/blog">
               Read My Blog
+            </Button>
+            <Button as={Link} className="button homeButton" to="/about">
+              View Portfolio
+            </Button>
+            <Button as={Link} className="button homeButton" to="/blog">
+              Contact Me
             </Button>
           </Col>
         </Fade>
