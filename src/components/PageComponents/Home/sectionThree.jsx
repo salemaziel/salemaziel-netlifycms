@@ -43,10 +43,10 @@ const SectionThree = () => (
             <Button as={Link} className="button homeButton" to="/blog">
               Read My Blog
             </Button>
-            <Button as={Link} className="button homeButton" to="/about">
+            <Button as={Link} className="button homeButton" to="/portfolio">
               View Portfolio
             </Button>
-            <Button as={Link} className="button homeButton" to="/blog">
+            <Button as={Link} className="button homeButton" to="/contact">
               Contact Me
             </Button>
           </Col>

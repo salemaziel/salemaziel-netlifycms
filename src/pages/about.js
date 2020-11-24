@@ -9,10 +9,16 @@ import Layout from '../components/Layout';
 //import '../css/about.css'
 
 import AboutPage from '../components/PageComponents/About/Page.jsx'
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
+
 
 
 const About = () => (
   <Layout>
+        <GatsbySeo
+      title='About Salem Aziel'
+      description='Salem Aziel: Mexican American Web Developer, Digital Consultat, Jr Systems Admin, and All-Around Chill Ass Dude'
+    />
 
 
 <AboutPage />

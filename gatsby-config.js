@@ -19,7 +19,9 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-sass",
-
+    {
+      resolve: `gatsby-plugin-next-seo`,
+    },
     {
       resolve: "gatsby-plugin-local-search",
       options: {

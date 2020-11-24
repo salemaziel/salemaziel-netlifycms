@@ -21,7 +21,7 @@ class Blog extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <OldSEO title="All posts" />
+        <OldSEO title="Blog by Salem: All Posts" />
           <section className="three">
             <Container>
             <Row className="justify-content-center">

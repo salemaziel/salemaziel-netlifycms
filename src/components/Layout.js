@@ -47,7 +47,7 @@ class Layout extends Component {
                 {
                   name: 'description',
                   content:
-                    "Salem Aziel's Website for Web Coach and Web Development",
+                    "Personal Website and Blog for Salem Aziel: Web Developer and Digital Consultant",
                 },
                 {
                   name: 'keywords',

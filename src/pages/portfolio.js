@@ -1,12 +1,10 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import PageFooter from '../components/PageFooter';
-import SideBar from '../components/Sidebar/index'
-import Rgallery from '../components/Rgallery'
-//import Shoptop from '../assets/images/sdcoast.jpg'
+
 
 import PortfolioPage from '../components/PageComponents/Portfolio/PortfolioPage'
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 
 const sections = [
@@ -18,6 +16,10 @@ const sections = [
 
 const Portfolio = () => (
     <Layout>
+          <GatsbySeo
+      title='Portfolio For Services offered by Salem Aziel'
+      description='Check out past Web Design and Web Development work'
+    />
         
 
             <PortfolioPage />
