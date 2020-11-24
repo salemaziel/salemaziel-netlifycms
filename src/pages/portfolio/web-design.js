@@ -18,7 +18,6 @@ const sections = [
 
 const Webdesign = () => (
     <Layout>
-        <SideBar /*sections={sections}*/ />
         
     <WebDevPage />
 

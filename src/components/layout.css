@@ -31,6 +31,11 @@ a {
     font-size: inherit;
     margin: 0 10px 2rem;
 }
+@media screen and (max-width: 780px){
+    .homeButton {
+        width: 260px;
+    }
+}
 
 
 .card {
@@ -76,6 +81,10 @@ a {
     
     .NoMobile {
         display: block;
+    }
+
+    .homeButton {
+        width: 260px;
     }
     
 }

@@ -41,7 +41,8 @@ body, html, #app {
 .gallery-tile {
   min-width: 200px;
   max-width: 28vw;
-  margin: 0.25em;
+  /*margin: 0.25em;*/
+  margin: auto;
   overflow: hidden;
   position: relative;
   cursor: pointer;

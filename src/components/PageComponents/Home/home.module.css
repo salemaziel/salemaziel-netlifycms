@@ -68,3 +68,12 @@
         box-shadow: 5px 10px 15px #060606;
     }
 }
+
+
+@media screen and (max-width: 736px) {
+    .Headerbg {
+        padding: 1.5rem 1rem;
+
+    }
+
+}

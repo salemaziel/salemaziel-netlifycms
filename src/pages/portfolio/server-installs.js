@@ -11,7 +11,6 @@ import ServerPage from '../../components/PageComponents/Portfolio/Server/Page'
 
 const ServerInstalls = () => (
     <Layout>
-        <SideBar /*sections={sections}*/ />
         <ServerPage />
 
 

@@ -235,7 +235,10 @@ h2.alt {
   padding: 1.5rem 0 0;
   z-index: 3;
   font-weight: 400;
+  font-family: monospace;
 }
+
+
 h2.alt strong {
   color: #666;
 }
@@ -847,7 +850,7 @@ button:active,
 }
 #main > section.dark {
   color: #ddd;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.85);
 }
 #main > section.dark h2,
 #main > section.dark h3,
@@ -1185,7 +1188,7 @@ button:active,
     font-size: 14pt;
   }
   h2 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     letter-spacing: 0;
     font-weight: 300;
   }
@@ -1230,4 +1233,10 @@ button:active,
   #footer .copyright li:first-child {
     margin-top: 0;
   }
+}
+
+@media screen and (max-width: 480px){
+#main section.cover header {
+    padding: 0 0;
+}
 }

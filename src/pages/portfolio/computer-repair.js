@@ -9,7 +9,6 @@ import CompRepairPage from '../../components/PageComponents/Portfolio/CompRepair
 
 const CompRepair = () => (
     <Layout>
-        <SideBar /*sections={sections}*/ />
         
 
             <CompRepairPage/>

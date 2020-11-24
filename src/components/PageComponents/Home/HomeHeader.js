@@ -22,7 +22,7 @@ const HomeHeader = (props) => {
         imageSrc={props.bgImage}
         isCentered={true}
         isFixed={true}
-        minHeight="100vh"
+        minHeight="115vh"
         opacity={0.2}
         color='#000'
       >
