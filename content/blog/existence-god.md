@@ -41,16 +41,16 @@ You know what I mean. It's like when you compliment someone for something they'r
 
 Stop that shit. Stop right the fuck now, it's ok to admit it. Humans are special, and we're bad ass. 
 
-We've fucked up along the way, sure. But we're only semi-sentient life forms; and *all* life forms make mistakes.\
-\
-We humans are fucking rare. Not only did we win the biological arms race that is evolution, the game of survival against every other species and living thing on earth; *the fact that biological process even exists in first place is rare as **fuck** in the universe.* \
-\
+We've fucked up along the way, sure. But we're only semi-sentient life forms; and *all* life forms make mistakes.
+
+We humans are fucking rare. Not only did we win the biological arms race that is evolution, the game of survival against every other species and living thing on earth; *the fact that biological process even exists in first place is rare as **fuck** in the universe.* 
+
  We've put a couple robots on Mars already. We have satellites way the fuck out in space, we can "see" *FAR* outside of our own planet. 
 
 And we haven't found any other form of life that could take us on. 
 
-Nevermind a form of life that could build planes, and Netflix, and A.I. and shit. \
-\
+Nevermind a form of life that could build planes, and Netflix, and A.I. and shit. 
+
 And not even remotely any form of Life with the capacity to intentionally manipulate, repurpose, and re-tool its own environment for its own benefit as well or to the degree that we humans can.
 
 ![mars the red planet](../assets/red-planet-mars.jpeg)
@@ -73,8 +73,8 @@ We humans are building the next form of existence, the next iteration of God. We
 
 And we are now starting to build similar laws and processes that will lead to the next form of Existence. RFCs, network protocols, and tech cultural fads are some of those laws and processes for the next Existence, but with silicon and electricity rather than carbon and hydogen.
 
-Whatever caused the big bang or whatever started us off the universe as an existing reality, did so because something before it caused it to exist in a way that'd result or lead  us to exist. And so on.\
-\
+Whatever caused the big bang or whatever started us off the universe as an existing reality, did so because something before it caused it to exist in a way that'd result or lead  us to exist. And so on.
+
 No matter how you look at it, we are unique and special.
 
 
