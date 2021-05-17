@@ -93,4 +93,4 @@ Existence isn't suffering. Nothing in our universe's existence suggests anything
 
 
 
-> *Existence is enjoying the fuck out of experiencing the pursuit of achieving or attaining our wants, with intermittent, sometimes shitty lessons on prioritizing those wants correctly, so as to let go of lower-tier wants, which the pursuit of had veeny getting in the way of enjoying and experiencing the pursuit of higher-tier wants.*
+*Existence is enjoying the fuck out of experiencing the pursuit of achieving or attaining our wants, with intermittent, sometimes shitty lessons on prioritizing those wants correctly, so as to let go of lower-tier wants, which the pursuit of had veeny getting in the way of enjoying and experiencing the pursuit of higher-tier wants.*
