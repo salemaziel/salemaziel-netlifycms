@@ -77,9 +77,7 @@ Whatever caused the big bang or whatever started us off the universe as an exist
 
 No matter how you look at it, we are unique and special.
 
-
-
-### What if we as a species start becoming proud of that about our species? 
+### What if we as a species start becoming proud of that about our species?
 
 Not in arrogant way, more  like the skilled but insecure  person from earlier, who finally recognized and gives herself the credit she deserves would be proud of herself.
 
@@ -91,6 +89,4 @@ Fuck that. We are the best and most capable ones in existence at getting what we
 
 Existence isn't suffering. Nothing in our universe's existence suggests anything else has ever been more able to or had more capacity to fulfill wants, and desire and enjoy good experiences, than our ability to as us humans right now. 
 
-
-
-*Existence is enjoying the fuck out of experiencing the pursuit of achieving or attaining our wants, with intermittent, sometimes shitty lessons on prioritizing those wants correctly, so as to let go of lower-tier wants, which the pursuit of had veeny getting in the way of enjoying and experiencing the pursuit of higher-tier wants.*
+*Existence is enjoying the fuck out of experiencing the pursuit of achieving or attaining our wants, with intermittent, sometimes shitty lessons on prioritizing those wants correctly, so as to let go of lower-tier wants, which the pursuit of had been getting in the way of enjoying and experiencing the pursuit of higher-tier wants.*
