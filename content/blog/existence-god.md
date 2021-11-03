@@ -3,8 +3,8 @@ path: /existence-is-god-part-1
 date: 2021-05-17T05:00:34.838Z
 title: Existence = God
 description: Existence in this universe is literally everything that has ever
-  happened, everything that is currently happening, and everything that'll ever
-  happen in our future.
+  happened, everything that is currently happening, and everything that will
+  ever happen in our future.
 featuredImage: ../assets/human-existence.jpg
 ---
 **Existence is better than not existing.**
