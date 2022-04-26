@@ -7,6 +7,12 @@ description: Existence in this universe is literally everything that has ever
   ever happen in our future.
 featuredImage: ../assets/human-existence.jpg
 ---
+**\[ Rough draft, don't judge me too much ]**
+
+
+
+
+
 **Existence is better than not existing.**
 
 ![human existence](../assets/human-existence.jpg)
