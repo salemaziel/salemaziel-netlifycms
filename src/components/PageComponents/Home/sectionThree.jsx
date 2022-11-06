@@ -10,7 +10,7 @@ import Col from "react-bootstrap/Col"
 
 import Fade from "react-reveal/Fade"
 
-import s3Styles from './home.module.css'
+import { profilePic }from './home.module.css'
 
 const SectionThree = () => (
   <section id="about" className="three">
@@ -26,7 +26,7 @@ const SectionThree = () => (
           <img
             src={Profilepic}
             alt="Profile photo of Salem Aziel"
-            className={s3Styles.profilePic}
+            className={profilePic}
           />
         </div>
       </Fade>

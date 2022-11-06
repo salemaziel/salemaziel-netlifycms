@@ -1,5 +1,7 @@
 import React from 'react';
-import homeStyles from './home.module.css';
+//import homeStyles from './home.module.css';
+import { containerHero, Headerbg, signature  } from './home.module.css';
+
 import Container from 'react-bootstrap/Container';
 
 import LazyHero from "react-lazy-hero";
@@ -26,14 +28,14 @@ const HomeHeader = (props) => {
         opacity={0.2}
         color='#000'
       >
-        <Container className={homeStyles.containerHero}>
-          <div className={homeStyles.Headerbg}>
+        <Container className={containerHero}>
+          <div className={Headerbg}>
             <header>
               <div>
                 <img
                   src={PersonaLightShadow}
                   alt="Salem Aziel signature logo"
-                  className={homeStyles.signature}
+                  className={signature}
                 />
               </div>
               <h2 className="alt" style={{ textShadow: '2px 2px 2px black' }}>
