@@ -7,7 +7,8 @@ import Container from 'react-bootstrap/Container';
 import LazyHero from "react-lazy-hero";
 
 
-import { PersonaLightShadow } from '../../../assets/images/index';
+//import { PersonaLightShadow } from '../../../assets/images/index';
+import PersonaLightShadow from '../../../assets/images/persona-lightshadow.png';
 import CodestaffLogo from '../../../assets/images/codestaff-logo.jpg';
 
 import CalendlyButton from '../../CalendlyButton'

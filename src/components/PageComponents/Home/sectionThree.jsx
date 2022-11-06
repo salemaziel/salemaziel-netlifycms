@@ -1,6 +1,7 @@
 import React from "react"
 
-import { Profilepic } from "../../../assets/images/index"
+//import { Profilepic } from "../../../assets/images/index"
+import Profilepic from '../../../assets/images/profilepic.png';
 
 import { Link } from "gatsby"
 
@@ -40,7 +41,7 @@ const SectionThree = () => (
             <Button as={Link} className="button homeButton" to="/about">
               Learn About Me
             </Button>
-            <Button as={Link} className="button homeButton" to="/blog">
+            <Button as={Link} className="button homeButton" href="https://salemaziel.oldschoolyouth.com" rel="preload self follow" target="_blank">
               Read My Blog
             </Button>
             <Button as={Link} className="button homeButton" to="/portfolio">

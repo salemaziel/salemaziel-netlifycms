@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Profilepic, MeStripedShirt } from "../../../assets/images/index"
+import MeStripedShirt from '../../../assets/images/me-striped-shirt-585x780.jpg';
 
 import { Link } from "gatsby"
 

@@ -28,7 +28,7 @@ const Nav = () => (
         </li>
 
         <li>
-        <NavLink as={Link} to="/blog" rel="preload" className="NavItems">
+        <NavLink href="https://salemaziel.oldschoolyouth.com" rel="preload self follow" target="_blank" className="NavItems">
         <FaBookOpen className="mr-5" />
           My Blog
         </NavLink>
