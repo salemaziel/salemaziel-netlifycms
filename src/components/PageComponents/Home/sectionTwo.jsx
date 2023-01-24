@@ -27,6 +27,11 @@ import {
   WhatsUpFoo,
 } from '../../../assets/images/index';
 
+// Import Photos as object from '../../../assets/images/index'
+
+
+
+
 const SectionTwo = () => (
   <section id="portfolio" className="two">
     <div className="container">
@@ -38,66 +43,66 @@ const SectionTwo = () => (
       <div className="row">
         <Col>
           <div className="image fit">
-            <img src={CodestaffLogo} alt="" />
+            <img src={...CodestaffLogo} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={Linuxlogo} alt="" />
+            <img src={...Linuxlogo} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={AlwaysSunny} alt="" />
+            <img src={...AlwaysSunny} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={UsedToSmoke} alt="" />
+            <img src={...UsedToSmoke} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={Soccer} alt="" />
+            <img src={...Soccer} alt="" />
           </div>
         </Col>
 
         <Col>
           <div className="image fit">
-            <img src={UCSB} alt="" />
+            <img src={...UCSB} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={Webservices} alt="" />
+            <img src={...Webservices} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={FTPACAB} alt="" />
+            <img src={...FTPACAB} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={Books} alt="" />
+            <img src={...Books} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={Lawsdontexist} alt="" />
+            <img src={...Lawsdontexist} alt="" />
           </div>
         </Col>
         <Col>
           <div className="image fit">
-            <img src={Revolutionary} alt="" />
+            <img src={...Revolutionary} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={Terminal2} alt="" />
+            <img src={...Terminal2} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={Hackerman} alt="" />
+            <img src={...Hackerman} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={Lakers} alt="" />
+            <img src={...Lakers} alt="" />
           </div>
 
           <div className="image fit">
-            <img src={WhatsUpFoo} alt="" />
+            <img src={...WhatsUpFoo} alt="" />
           </div>
         </Col>
       </div>

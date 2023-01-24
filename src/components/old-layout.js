@@ -5,8 +5,7 @@ import styled from "styled-components"
 import SideBar from './Sidebar/index';
 
 import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+
 
 
 import { rhythm, scale } from "../utils/typography"
@@ -96,10 +95,10 @@ class Layout2 extends React.Component {
 const Wrapper = styled.div`
   min-height: 100vh;
 `
-
-const Footer = styled.footer`
-  text-align: center;
-  margin: 24px;
-`
-
 export default Layout2
+//const Footer = styled.footer`
+//  text-align: center;
+//  margin: 24px;
+//`
+
+

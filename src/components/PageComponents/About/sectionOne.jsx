@@ -7,15 +7,17 @@ import React from 'react'
 //import pic7 from '../../../assets/images/pic07.jpg';
 //import pic8 from '../../../assets/images/pic08.jpg';
 
-import { MeStripedShirt } from '../../../assets/images/index'
+import MeStripedShirt from '../../../assets/images/me-striped-shirt-square-500x.jpg';
+
+import { StaticImage } from "gatsby-plugin-image"
+
 import Row from 'react-bootstrap/Row'
-//import InstagramEmbed from 'react-instagram-embed';
 import Button from 'react-bootstrap/Button'
 import {Link} from 'gatsby'
 
 import Col from 'react-bootstrap/Col'
 
-import aboutStyles from './about.module.css'
+import { MoreAbout } from './about.module.css'
 
 const SectionOne = () => (
   <>
@@ -30,7 +32,16 @@ const SectionOne = () => (
         </Row>
 
         <div className="image featured">
-          <img src={MeStripedShirt} alt="" style={{width:'50%', margin: 'auto', boxShadow: '5px 10px 15px #060606'}} />
+          {/*<img src={MeStripedShirt} alt="" style={{width:'50%', margin: 'auto', boxShadow: '5px 10px 15px #060606'}} />*/}
+          <StaticImage
+            src="../../../assets/images/me-striped-shirt-square-500x.jpg"
+            alt="Salem Aziel"
+            placeholder="blurred"
+            layout="constrained"
+            width={500}
+            height={500}
+            style={{width:'50%', margin: 'auto', boxShadow: '5px 10px 15px #060606'}}
+          />
         </div>
 
         <p>
@@ -57,7 +68,7 @@ const SectionOne = () => (
         <br />
         <hr />
         <br />
-        <div className={aboutStyles.MoreAbout}>
+        <div className={MoreAbout}>
           {/*<InstagramEmbed
             url="https://www.instagram.com/p/244wrIhZ-5/"
             maxWidth={320}

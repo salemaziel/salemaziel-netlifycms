@@ -4,7 +4,7 @@ import Header from './Header';
 import Nav2 from './Nav2';
 import TopNav from './TopNav';
 import config from '../../../config';
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 
 const pic = require('../../assets/img/color-circle-articles-2015356.png');
 

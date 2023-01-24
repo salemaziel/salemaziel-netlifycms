@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
+//import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Bio from "../components/old-bio"
 import Layout2 from "../components/old-layout"

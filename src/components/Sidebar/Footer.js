@@ -1,7 +1,7 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+//import { Row, Col } from 'react-bootstrap';
 import { FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
-import CalendlyButton from '../CalendlyButton'
+//import CalendlyButton from '../CalendlyButton'
 
 export default function Footer({ socialLinks = [] }) {
   return (

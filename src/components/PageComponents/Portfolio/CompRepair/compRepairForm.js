@@ -1,7 +1,7 @@
 import React from 'react';
 import { navigate } from 'gatsby';
 import Row from 'react-bootstrap/Row'
-import Form from 'react-bootstrap/Form';
+//import Form from 'react-bootstrap/Form';
 //import Button from 'react-bootstrap/Button'
 
 function encode(data) {
