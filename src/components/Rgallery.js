@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/rgallery.css'
 import fetch from 'cross-fetch'
-import ScrollToTop from 'react-router-scroll-top'
+//import ScrollToTop from 'react-router-scroll-top'
 
 
 class Rgallery extends React.Component {
@@ -23,7 +23,11 @@ class Rgallery extends React.Component {
 		// XHR Fallback
 	_loadData(url) {
 		fetch(url, {
-				method: 'GET'
+				method: 'GET',
+//				body: JSON.stringify(),
+				headers: {
+                    'Content-Type': 'application/json'
+				}
 			})
 			.then(response => response.json())
 			.then(json => this.setState({

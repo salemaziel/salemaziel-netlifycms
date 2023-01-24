@@ -15,21 +15,22 @@ module.exports = {
   plugins: [
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-sass",
     {
       resolve: `gatsby-plugin-next-seo`,
     },
     `gatsby-plugin-root-import`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
+//    {
+//      resolve: `gatsby-source-filesystem`,
+//      options: {
+//        path: `${__dirname}/content/blog`,
+//        name: `blog`,
+//      },
+//    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

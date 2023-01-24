@@ -26,7 +26,7 @@ const SectionThree = () => (
         <div className="image featured">
           <img
             src={Profilepic}
-            alt="Profile photo of Salem Aziel"
+            alt="Salem Aziel"
             className={profilePic}
           />
         </div>

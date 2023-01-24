@@ -4,7 +4,7 @@ import Header from './Header';
 import Nav from './Nav';
 import TopNav from './TopNav';
 import config from '../../../config';
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 
 //const pic = require('../../assets/img/persona-lightshadow.png');
 

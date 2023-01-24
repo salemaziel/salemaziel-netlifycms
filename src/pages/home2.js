@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import PageFooter from '../components/PageFooter';
+//import PageFooter from '../components/PageFooter';
 import SideBar from '../components/Sidebar/index2';
 
 import pic2 from '../assets/images/pic02.jpg';
@@ -13,7 +13,7 @@ import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
-import ScrollToTop from 'react-router-scroll-top';
+//import ScrollToTop from 'react-router-scroll-top';
 
 import HomeHeader from '../components/PageComponents/Home/HomeHeader';
 

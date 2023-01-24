@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+//import Container from 'react-bootstrap/Container'
+//import Row from 'react-bootstrap/Row'
+//import Col from 'react-bootstrap/Col'
 import Categories from './Categories'
 
 import SectionTop from './sectionTop'
@@ -18,7 +18,7 @@ const PortfolioPage = () => (
     bgImageOpacity=""
     title="Portolio"
     subtitle="of the services I offer"
-    size="2"
+//    size="2"
     >
     <Categories />
 

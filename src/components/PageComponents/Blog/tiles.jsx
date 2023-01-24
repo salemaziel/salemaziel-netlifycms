@@ -4,7 +4,7 @@ import React from "react";
 
 import "./tiles.scss";
 import { Link } from "gatsby";
-import Fade from "react-reveal/Fade";
+//import Fade from "react-reveal/Fade";
 
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'

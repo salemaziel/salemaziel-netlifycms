@@ -5,8 +5,6 @@ import MeStripedShirt from '../../../assets/images/me-striped-shirt-585x780.jpg'
 import { Link } from "gatsby"
 
 import Button from "react-bootstrap/Button"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 
 import Fade from "react-reveal/Fade"
 
