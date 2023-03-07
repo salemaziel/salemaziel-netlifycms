@@ -85,3 +85,5 @@ yarn-error.log
 *.code-workspace
 # Local Netlify folder
 .netlify
+
+.yarn

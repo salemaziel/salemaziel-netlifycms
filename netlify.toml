@@ -14,7 +14,18 @@
     X-Robots-Tag = "index"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"  
+    X-XSS-Protection = "1; mode=block"
+    Access-Control-Allow-Origin = '''
+      https://rblartdesign.com,
+      https://m.rblartdesign.com,
+      https://m.rblartdesign.com/stats.js,
+      https://github.com, 
+      https://identity.netlify.com, 
+      https://media-library.cloudinary.com, 
+      https://widget.cloudinary.com, 
+      https://www.youtube.com,
+      https://salemaziel.oldschoolyouth.com,
+    '''
     Access-Control-Allow-Methods = '''
       POST, 
       GET,
@@ -60,7 +71,7 @@ headers = {X-Forwarded-Host = "<salemaziel.com>"}
 
 [[redirects]]
 from = "/blog"
-to = "https://salemaziel.oldschoolyouth.com/blog/"
+to = "https://salemaziel.oldschoolyouth.com/"
 status = 200
 force = true
 headers = {X-Forwarded-Host = "<salemaziel.com>"}
